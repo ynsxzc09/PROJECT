@@ -1,0 +1,57 @@
+body {display: flex;
+    flex-direction: column;
+
+}
+.cover {
+    margin: 1%;
+}
+img {width: 97vw;
+}
+.button {
+   float: right;
+    width: 3vw;
+   padding: 6px;
+    background-color: lightslategrey;
+}
+.button:hover {background-color: beige;}
+.button a {
+    color: black;
+}
+
+
+/*--Smartphone portrait landscape--*/
+@media screen and (min-width:320px) 
+and (max-width:480px) 
+{body 
+    {background-color: beige;}
+}
+
+/*------SMARTPHONE PORTRAIT----*/
+@media screen and (max-width:320px) 
+{body 
+    {background-color: beige;}
+}
+
+/*-----SMARTPHONE LANDSCAPE----*/
+@media screen and (min-width:350px) 
+{body 
+    {background-color: beige;}
+}
+
+/*-----TABLET AND ALL IPAD--*/
+@media screen and (min-width:768px) and (max-width:1024px) 
+{body 
+    {background-color: beige;}
+}
+
+/*-----DESKTOP AND LAPTOP----*/
+@media screen and (min-width:1224px) 
+{body 
+    {background-color: beige;}
+}
+
+/*-----LARGE SCREEN---*/
+@media screen and (min-width:1824px) 
+{body 
+    {background-color: beige;}
+}
